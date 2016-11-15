@@ -31,3 +31,7 @@ gems:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# deploy
+deploy:
+  - rsync -crvz --delete-after --delete-excluded _site artlogic_jkorg@ssh.phx.nearlyfreespeech.net:
