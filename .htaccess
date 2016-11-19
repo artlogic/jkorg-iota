@@ -1,0 +1,6 @@
+ErrorDocument 404 /404/
+
+# redirect HTTP to HTTPS
+RewriteEngine on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R=301]
