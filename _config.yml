@@ -34,4 +34,4 @@ gems:
 
 # deploy
 deploy:
-  - rsync -crvz --delete-after --delete-excluded _site artlogic_jkorg@ssh.phx.nearlyfreespeech.net:
+  - "rsync -crvz --delete-after --delete-excluded ./ artlogic_jkorg@ssh.phx.nearlyfreespeech.net:"
