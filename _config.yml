@@ -19,17 +19,13 @@ license: > # the license for your site - optional
 powered_by: false  # display the powered by and theme info in the footer
 
 # Build settings
-exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'LICENSE']
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md']
 permalink: pretty
 
 kramdown:
   input: GFM
 
-# plugins
-gems:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
+theme: jekyll-theme-iota
 
 # deploy
 deploy:

@@ -1,12 +1,10 @@
 # frozen_string_literal: true
 source 'https://rubygems.org'
 
-gem 'jekyll', '>=3.3'
+gem 'jekyll', '>=3.8'
+gem 'jekyll-theme-iota'
 
 group :jekyll_plugins do
-  gem 'jekyll-feed'
-  gem 'jekyll-seo-tag'
-  gem 'jekyll-sitemap'
   gem 'jekyll-compose'
   gem 'jekyll-deploy'
 end
